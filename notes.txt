@@ -1,0 +1,2 @@
+- I am updating a variable to monitor where the first and last dynamic memory locations
+are being allocated, then dumping this entire area
