@@ -45,8 +45,8 @@ The project includes several machine language programs:
 ## Usage
 Compile and run the Java program:
 ```
-javac hyposim4.java
-java hyposim4
+javac src/Simulator.java
+java -cp src Simulator
 ```
 
 The program outputs will be written to a text file (e.g., `Forgan_HW4Output.txt`).
