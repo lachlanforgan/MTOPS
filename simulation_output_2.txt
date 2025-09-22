@@ -1,0 +1,3369 @@
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/program1.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	2	51160	50	15050	10	13	15060
+	20 	13	2	21160	1	81100	16	51260	550	21250	10
+	30 	41260	100	31260	5	55012	11	75050	11	43	55060
+	40 	12	2	60000	55060	12	1	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 14, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 14, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 14, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram4.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	100	0	13	-3	0	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 4
+Mem alloc system call.
+Mem_alloc system call
+GPR0: 1
+GPR1: 2100
+GPR2: 100
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	0	0	0	0	0	0	0	0	0	0
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram5.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	90	2100	13	-3	-255879	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+	190 	7	106000	2482	106000	4824	106000	8242	106000	2842	106000
+	200 	3575	106000	4567	106000	2343	106000	9876	106000	5303	106000
+	210 	5009	110000	110000	110000	110000	110000	110000	110000	110000	110000
+	220 	110000	25060	190	1	85050	190	191	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Process created. Printing pcb...
+ PCB ADDRESS = [1044], Next PCB ptr = -1, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1044, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2109, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1044], Next PCB ptr = 1000, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2109, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1044], Next PCB ptr = 1000, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1066] size: 34 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2030] size: 70 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2020] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	-1	80	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram6.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	4	0	0	51260	9	120000	4	55011	91	51450
+	100 	91	120000	8	52411	11460	1	25060	90	1	85050
+	110 	90	101	55060	90	4	51450	91	51124	120000	9
+	120 	25060	90	1	11460	1	85050	90	117	51150	91
+	130 	51260	9	120000	5	0	0	0	0	0	0
+	140 	80	2100	13	-3	2070470113	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+	190 	7	106000	2482	106000	4824	106000	8242	106000	2842	106000
+	200 	3575	106000	4567	106000	2343	106000	9876	106000	5303	106000
+	210 	5009	110000	110000	110000	110000	110000	110000	110000	110000	110000
+	220 	110000	25060	190	1	85050	190	191	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Process created. Printing pcb...
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1044], Next PCB ptr = 1022, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1022], Next PCB ptr = 1066, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2119, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1066], Next PCB ptr = 1000, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1044], Next PCB ptr = -1, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1022], Next PCB ptr = 1066, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2119, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1066], Next PCB ptr = 1000, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2040] size: 60 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2020] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	5009	5303	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1066, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2119, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1066], Next PCB ptr = 1044, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1044], Next PCB ptr = 1000, PID = 3, State = 1, PC = 203, SP = 2024, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2119, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1066], Next PCB ptr = 1044, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1044], Next PCB ptr = 1000, PID = 3, State = 1, PC = 203, SP = 2024, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2040] size: 60 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2129	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 973 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2129	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 973 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2129	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 973 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2020] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2129	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	5009	5303	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 973 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2129	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 973 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = 1044, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1044], Next PCB ptr = 1022, PID = 3, State = 1, PC = 203, SP = 2024, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2129, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 1, PC = 93, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1044], Next PCB ptr = 1022, PID = 3, State = 1, PC = 203, SP = 2024, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2129, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 4
+Mem alloc system call.
+Mem_alloc system call
+GPR0: 1
+GPR1: 2040
+GPR2: 9
+Enterring system call with ID: 8
+Io_getc System call.
+OS FREE LIST:
+free list:
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2040	9	0	2040	0	0	0	2040	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 991 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2040	9	0	2040	0	0	0	2040	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 991 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2040	9	0	2040	0	0	0	2040	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 991 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2020] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2040	9	0	2040	0	0	0	2040	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	5009	5303	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 991 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2040	9	0	2040	0	0	0	2040	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 991 microseconds
+PSR: 2
+PSR: 2
+Memory Block 6 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2040	9	0	2040	0	0	0	2040	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 991 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1044], Next PCB ptr = 1022, PID = 3, State = 1, PC = 203, SP = 2024, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2129, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1044], Next PCB ptr = -1, PID = 3, State = 1, PC = 203, SP = 2024, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2129, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+HALT encountered. Stopping execution.
+Completed process of PID: 3. Clearing PCB...
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2030	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 1240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2030	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 1240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2030	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 1240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2030	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 1240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2030	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 1240 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2129, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2129, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2139	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 1440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2139	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 1440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2139	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 1440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2139	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 1440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2139	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 1440 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2139, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2139, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2149	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 1640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2149	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 1640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2149	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 1640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2149	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 1640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2149	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 1640 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2149, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2149, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2159	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 1840 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2159	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 1840 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2159	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	-1744531147	938626145	1479088861	-142299287	426897861	-1280693583	-452886547	1358659641	218988373	-656965119
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 1840 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2159	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 1840 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2159	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 1840 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2159, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2159, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2169	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 2040 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2169	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 2040 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2169	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	-1744531147	938626145	1479088861	-142299287	426897861	-1280693583	-452886547	1358659641	218988373	-656965119
+	2160 	1970895357	-1617718775	558189029	-1674567087	728733965	2108765401	-2031328907	1799019425	-1102090979	-988694359
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 2040 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2169	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 2040 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2169	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 2040 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2169, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2169, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2179	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 2240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2179	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 2240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2179	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	-1744531147	938626145	1479088861	-142299287	426897861	-1280693583	-452886547	1358659641	218988373	-656965119
+	2160 	1970895357	-1617718775	558189029	-1674567087	728733965	2108765401	-2031328907	1799019425	-1102090979	-988694359
+	2170 	-1328884219	-308314639	924943917	1520135545	-265439339	796318017	1906013245	-1423072439	-25749979	77249937
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 2240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2179	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 2240 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2179	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 2240 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2179, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2179, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2189	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 2440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2189	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 2440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2189	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	-1744531147	938626145	1479088861	-142299287	426897861	-1280693583	-452886547	1358659641	218988373	-656965119
+	2160 	1970895357	-1617718775	558189029	-1674567087	728733965	2108765401	-2031328907	1799019425	-1102090979	-988694359
+	2170 	-1328884219	-308314639	924943917	1520135545	-265439339	796318017	1906013245	-1423072439	-25749979	77249937
+	2180 	-231749811	695249433	-2085748299	1962277601	-1591865507	480629225	-1441887675	30695729	-92087187	276261561
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 2440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2189	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 2440 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2189	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 2440 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2189, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2189, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2199	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 2640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2199	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 2640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2199	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	-1744531147	938626145	1479088861	-142299287	426897861	-1280693583	-452886547	1358659641	218988373	-656965119
+	2160 	1970895357	-1617718775	558189029	-1674567087	728733965	2108765401	-2031328907	1799019425	-1102090979	-988694359
+	2170 	-1328884219	-308314639	924943917	1520135545	-265439339	796318017	1906013245	-1423072439	-25749979	77249937
+	2180 	-231749811	695249433	-2085748299	1962277601	-1591865507	480629225	-1441887675	30695729	-92087187	276261561
+	2190 	-828784683	-1808613247	1130872445	902349961	1587917413	-468784943	1406354829	75902809	-227708427	683125281
+Clock: 2640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2199	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 2640 microseconds
+PSR: 2
+PSR: 2
+Memory Block 5 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2199	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 2640 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2199, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2199, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 5
+Dealloc memory system call.
+Freeing User Memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2200	0	0	0	2020	182
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	-1916443043	1454361833	-68118203	204354609	-613063827	1839191481	-1222607147	-627145855	1881437565	-1349345399
+	2130 	-246931099	740793297	2072587405	-1922794919	1473417461	-125285087	375855261	-1127565783	-912269947	-1558157455
+	2140 	379505069	-1138515207	-879421675	-1656702271	675139517	-2025418551	1781288357	-1048897775	-1148273971	-850145383
+	2150 	-1744531147	938626145	1479088861	-142299287	426897861	-1280693583	-452886547	1358659641	218988373	-656965119
+	2160 	1970895357	-1617718775	558189029	-1674567087	728733965	2108765401	-2031328907	1799019425	-1102090979	-988694359
+	2170 	-1328884219	-308314639	924943917	1520135545	-265439339	796318017	1906013245	-1423072439	-25749979	77249937
+	2180 	-231749811	695249433	-2085748299	1962277601	-1591865507	480629225	-1441887675	30695729	-92087187	276261561
+	2190 	-828784683	-1808613247	1130872445	902349961	1587917413	-468784943	1406354829	75902809	-227708427	683125281
+Clock: 2651 microseconds
+PSR: 1
+PSR: 1
+Mem_free system call
+GPR0: 1
+GPR1: 2100
+GPR2: 100
+HALT encountered. Stopping execution.
+Completed process of PID: 2. Clearing PCB...
+OS FREE LIST:
+free list:
+	address [1022] size: 22 next ptr -> 1044
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2010] size: 10 next ptr -> 2100
+	address [2100] size: 100 next ptr -> 2020
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2200	0	0	0	2020	183
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 2675 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2200	0	0	0	2020	183
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 2675 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2200	0	0	0	2020	183
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 2675 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+Queue is empty.
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1022] size: 22 next ptr -> 1044
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2010] size: 10 next ptr -> 2100
+	address [2100] size: 100 next ptr -> 2020
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 2875 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 2875 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 2875 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1066], Next PCB ptr = -1, PID = 4, State = 2, PC = 103, SP = 2040, Priority = 128, Stack info: start address = 2030, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2040, GPR2 = 9, GPR3 = 0, GPR4 = 2040, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+Queue is empty.
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1022] size: 22 next ptr -> 1044
+	address [1044] size: 22 next ptr -> 1088
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2010] size: 10 next ptr -> 2100
+	address [2100] size: 100 next ptr -> 2020
+	address [2020] size: 10 next ptr -> 2049
+	address [2049] size: 51 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 3075 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2040] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2040 	-1	60	0	0	0	0	0	0	0	2200
+Clock: 3075 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2030] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2030 	-1	70	0	0	0	0	0	0	0	0
+Clock: 3075 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram4.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	100	0	13	-3	0	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 4
+Mem alloc system call.
+Mem_alloc system call
+GPR0: 1
+GPR1: 2100
+GPR2: 100
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	0	0	0	0	0	0	0	0	0	0
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram5.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	90	2100	13	-3	-255879	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+	190 	7	106000	2482	106000	4824	106000	8242	106000	2842	106000
+	200 	3575	106000	4567	106000	2343	106000	9876	106000	5303	106000
+	210 	5009	110000	110000	110000	110000	110000	110000	110000	110000	110000
+	220 	110000	25060	190	1	85050	190	191	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Process created. Printing pcb...
+ PCB ADDRESS = [1044], Next PCB ptr = -1, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1044, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2109, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1044], Next PCB ptr = 1000, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2109, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1044], Next PCB ptr = 1000, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1066] size: 34 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2030] size: 70 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2020] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2119	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	-1	80	0	0	0	0	0	0	0	0
+Clock: 401 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file b... 
+Error: File not found - b
+ERROR: UNABLE TO LOAD FILE.
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1044], Next PCB ptr = 1022, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2119, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1044], Next PCB ptr = -1, PID = 3, State = 1, PC = 191, SP = 2030, Priority = 128, Stack info: start address = 2020, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 171, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2100, GPR2 = 100, GPR3 = 0, GPR4 = 2119, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+2343 being pushed onto stack at location: 2023
+9876 being pushed onto stack at location: 2022
+5303 being pushed onto stack at location: 2021
+5009 being pushed onto stack at location: 2020
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2029
+4824 being pushed onto stack at location: 2028
+8242 being pushed onto stack at location: 2027
+2842 being pushed onto stack at location: 2026
+3575 being pushed onto stack at location: 2025
+4567 being pushed onto stack at location: 2024
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1088] size: 12 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2030] size: 70 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	767637	-2302911	6908733	-20726199	62178597	-186535791	559607373	-1678822119	741499061	2070470113
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Memory Block 4 at address [2020] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2024	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	5009	5303	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 773 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Invalid input: Please enter a numeric value only.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Invalid input: Please enter a numeric value only.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram5.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	0	0	0	0	0	0	0	0	0	0
+	150 	0	0	0	0	0	0	0	0	0	0
+	160 	0	0	0	0	0	0	0	0	0	0
+	170 	0	0	0	0	0	0	0	0	0	0
+	180 	0	0	0	0	0	0	0	0	0	0
+	190 	7	106000	2482	106000	4824	106000	8242	106000	2842	106000
+	200 	3575	106000	4567	106000	2343	106000	9876	106000	5303	106000
+	210 	5009	110000	110000	110000	110000	110000	110000	110000	110000	110000
+	220 	110000	25060	190	1	85050	190	191	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 191, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 191, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 191, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2014	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 372 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2014	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	5009	5303	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 372 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Invalid input: Please enter a numeric value only.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+b
+Interrupt ID: b
+Invalid input: Please enter a numeric value only.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+c
+Interrupt ID: c
+Invalid input: Please enter a numeric value only.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+Loading file src/ForganProgram4.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	100	0	13	-3	0	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 4
+Mem alloc system call.
+Mem_alloc system call
+GPR0: 1
+GPR1: 2100
+GPR2: 100
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	0	0	0	0	0	0	0	0	0	0
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+src/ForganProgram4.txt
+Loading file src/ForganProgram4.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	100	0	13	-3	0	51260	100	120000	4	55011
+	150 	141	51450	141	52450	142	55024	144	11460	1	25060
+	160 	140	1	52450	144	32450	143	25060	140	1	55024
+	170 	144	11460	1	85050	140	162	51150	141	51260	100
+	180 	120000	5	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 145, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 4
+Mem alloc system call.
+Mem_alloc system call
+GPR0: 1
+GPR1: 2100
+GPR2: 100
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2200
+	address [2200] size: 100 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	90	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2100] with size 100:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2100	100	0	2109	0	0	0	2020	171
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2100 	13	-39	117	-351	1053	-3159	9477	-28431	85293	-255879
+	2110 	0	0	0	0	0	0	0	0	0	0
+	2120 	0	0	0	0	0	0	0	0	0	0
+	2130 	0	0	0	0	0	0	0	0	0	0
+	2140 	0	0	0	0	0	0	0	0	0	0
+	2150 	0	0	0	0	0	0	0	0	0	0
+	2160 	0	0	0	0	0	0	0	0	0	0
+	2170 	0	0	0	0	0	0	0	0	0	0
+	2180 	0	0	0	0	0	0	0	0	0	0
+	2190 	0	0	0	0	0	0	0	0	0	0
+Clock: 201 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+src/ForganProgram5.txt
+Loading file src/ForganProgram5.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	0	0	0	0	0	0	0	0	0	0
+	100 	0	0	0	0	0	0	0	0	0	0
+	110 	0	0	0	0	0	0	0	0	0	0
+	120 	0	0	0	0	0	0	0	0	0	0
+	130 	0	0	0	0	0	0	0	0	0	0
+	140 	0	0	0	0	0	0	0	0	0	0
+	150 	0	0	0	0	0	0	0	0	0	0
+	160 	0	0	0	0	0	0	0	0	0	0
+	170 	0	0	0	0	0	0	0	0	0	0
+	180 	0	0	0	0	0	0	0	0	0	0
+	190 	7	106000	2482	106000	4824	106000	8242	106000	2842	106000
+	200 	3575	106000	4567	106000	2343	106000	9876	106000	5303	106000
+	210 	5009	110000	110000	110000	110000	110000	110000	110000	110000	110000
+	220 	110000	25060	190	1	85050	190	191	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 191, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 191, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 191, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2020] size: 80 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2014	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 372 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2014	203
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	5009	5303	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 372 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+0
+Interrupt ID: 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 2, State = 1, PC = 203, SP = 2014, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 2, State = 1, PC = 203, SP = 2014, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 2482, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+2482 being pushed onto stack at location: 2019
+4824 being pushed onto stack at location: 2018
+8242 being pushed onto stack at location: 2017
+2842 being pushed onto stack at location: 2016
+3575 being pushed onto stack at location: 2015
+4567 being pushed onto stack at location: 2014
+2343 being pushed onto stack at location: 2013
+9876 being pushed onto stack at location: 2012
+5303 being pushed onto stack at location: 2011
+5009 being pushed onto stack at location: 2010
+5009 being popped from stack.
+5303 being popped from stack.
+9876 being popped from stack.
+2343 being popped from stack.
+4567 being popped from stack.
+3575 being popped from stack.
+2842 being popped from stack.
+8242 being popped from stack.
+4824 being popped from stack.
+2482 being popped from stack.
+HALT encountered. Stopping execution.
+Completed process of PID: 2. Clearing PCB...
+OS FREE LIST:
+free list:
+	address [1022] size: 22 next ptr -> 1044
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2010] size: 10 next ptr -> 2020
+	address [2020] size: 80 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2020	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 621 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+src/ForganProgram6.txt
+Loading file src/ForganProgram6.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	2482	0	0	0	0	0	0	0	2020	228
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	00 	60000	0	0	0	0	0	0	0	0	0
+	10 	0	0	0	0	0	0	0	0	0	0
+	20 	0	0	0	0	0	0	0	0	0	0
+	30 	0	0	0	0	0	0	0	0	0	0
+	40 	0	0	0	0	0	0	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+	60 	0	0	0	0	0	0	0	0	0	0
+	70 	0	0	0	0	0	0	0	0	0	0
+	80 	0	0	0	0	0	0	0	0	0	0
+	90 	4	0	0	51260	9	120000	4	55011	91	51450
+	100 	91	120000	8	52411	11460	1	25060	90	1	85050
+	110 	90	101	55060	90	4	51450	91	51124	120000	9
+	120 	25060	90	1	11460	1	85050	90	117	51150	91
+	130 	51260	9	120000	5	0	0	0	0	0	0
+	140 	0	0	0	0	0	0	0	0	0	0
+	150 	0	0	0	0	0	0	0	0	0	0
+	160 	0	0	0	0	0	0	0	0	0	0
+	170 	0	0	0	0	0	0	0	0	0	0
+	180 	0	0	0	0	0	0	0	0	0	0
+	190 	0	106000	2482	106000	4824	106000	8242	106000	2842	106000
+	200 	3575	106000	4567	106000	2343	106000	9876	106000	5303	106000
+	210 	5009	110000	110000	110000	110000	110000	110000	110000	110000	110000
+	220 	110000	25060	190	1	85050	190	191	0	0	0
+Clock: 621 microseconds
+PSR: 2
+PSR: 2
+Process created. Printing pcb...
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 3, State = 1, PC = 93, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = 1000, PID = 3, State = 1, PC = 93, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 3, State = 1, PC = 93, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Executing cpu...
+Enterring system call with ID: 4
+Mem alloc system call.
+Mem_alloc system call
+GPR0: 1
+GPR1: 2020
+GPR2: 9
+Enterring system call with ID: 8
+Io_getc System call.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2029] size: 71 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2020	9	0	2020	0	0	0	2020	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 639 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2020	9	0	2020	0	0	0	2020	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	10	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 639 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2020] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	1	2020	9	0	2020	0	0	0	2020	103
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	-1	80	0	0	0	0	0	0	0	2100
+Clock: 639 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+3
+Interrupt ID: 3
+Enter PID of process: 
+4
+PID: 4
+Not in WQ. Searching RQ.
+ERROR: INVALID PID: PID NOT FOUND IN WQ OR RQ.
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 3, State = 2, PC = 103, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2020, GPR2 = 9, GPR3 = 0, GPR4 = 2020, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+Queue is empty.
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2029] size: 71 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 839 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	10	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 839 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2020] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	-1	80	0	0	0	0	0	0	0	2100
+Clock: 839 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+3
+Interrupt ID: 3
+Enter PID of process: 
+2
+PID: 2
+Not in WQ. Searching RQ.
+ERROR: INVALID PID: PID NOT FOUND IN WQ OR RQ.
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 3, State = 2, PC = 103, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2020, GPR2 = 9, GPR3 = 0, GPR4 = 2020, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+Queue is empty.
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2029] size: 71 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 1039 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	10	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 1039 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2020] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	-1	80	0	0	0	0	0	0	0	2100
+Clock: 1039 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+3
+Interrupt ID: 3
+Enter PID of process: 
+1
+PID: 1
+Not in WQ. Searching RQ.
+Found process with pid: 1at address: 1000
+For clarification, PID equals: 1
+and in pcb, PID equals: 1
+Enter character: 
+GPR1 set to: b for process: 1
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 98, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+ PCB ADDRESS = [1022], Next PCB ptr = -1, PID = 3, State = 2, PC = 103, SP = 2020, Priority = 128, Stack info: start address = 2010, size = 10
+	GPRs: GPR0 = 1, GPR1 = 2020, GPR2 = 9, GPR3 = 0, GPR4 = 2020, GPR5 = 0, GPR6 = 0, GPR7 = 0
+Process selected:
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 0, SP = 2010, Priority = 0, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 98, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+Queue is empty.
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1044] size: 56 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2029] size: 71 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	98	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 1239 microseconds
+PSR: 2
+PSR: 2
+Memory Block 2 at address [2010] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	98	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2010 	-1	10	9876	2343	4567	3575	2842	8242	4824	2482
+Clock: 1239 microseconds
+PSR: 2
+PSR: 2
+Memory Block 3 at address [2020] with size 9:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	98	0	0	0	0	0	0	2010	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2020 	-1	80	0	0	0	0	0	0	0	2100
+Clock: 1239 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...

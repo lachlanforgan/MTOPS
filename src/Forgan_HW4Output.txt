@@ -1,0 +1,90 @@
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Error: File not found - src/null.txt
+ERROR: UNABLE TO LOAD FILE.
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+Running HYPO Decimal Machine...
+Initializing system...
+Loading file src/null.txt... 
+Error: File not found - src/null.txt
+ERROR: UNABLE TO LOAD FILE.
+System initialized.
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
+1
+Interrupt ID: 1
+Enter the name of the program file to load: 
+machine_test_1.txt
+Loading file machine_test_1.txt... 
+Program loaded. Dumping memory:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	0	0	0	0	0	0	0	9999	0
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	10 	0	0	0	2	51160	50	15050	10	13	15060
+	20 	13	2	21160	1	81100	16	51260	550	21250	10
+	30 	41260	100	31260	5	55012	11	75050	11	43	55060
+	40 	12	2	60000	55060	12	1	0	0	0	0
+	50 	0	0	0	0	0	0	0	0	0	0
+Clock: 0 microseconds
+PSR: 0
+PSR: 0
+Process created. Printing pcb...
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 14, SP = 2010, Priority = 128, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+RQ: Before CPU scheduling
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 14, SP = 2010, Priority = 128, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+
+WQ: Before CPU scheduling
+Queue is empty.
+Process selected:
+ PCB ADDRESS = [1000], Next PCB ptr = -1, PID = 1, State = 1, PC = 14, SP = 2010, Priority = 128, Stack info: start address = 2000, size = 10
+	GPRs: GPR0 = 0, GPR1 = 0, GPR2 = 0, GPR3 = 0, GPR4 = 0, GPR5 = 0, GPR6 = 0, GPR7 = 0
+RQ: After selecting process from RQ
+Queue is empty.
+Executing cpu...
+Time slice expired. Halting execution.
+OS FREE LIST:
+free list:
+	address [1022] size: 78 next ptr -> 1100
+	address [1100] size: 200 next ptr -> 1300
+	address [1300] size: 300 next ptr -> 1600
+	address [1600] size: 400 next ptr -> -1
+
+USER FREE LIST:
+free list:
+	address [2010] size: 90 next ptr -> 2100
+	address [2100] size: 200 next ptr -> 2300
+	address [2300] size: 300 next ptr -> 2600
+	address [2600] size: 400 next ptr -> -1
+
+DUMPING ALL ALLOCATED MEMORY BLOCKS:
+Memory Block 1 at address [2000] with size 10:
+GPRS:	G0	G1	G2	G3	G4	G5	G6	G7	SP	PC
+	0	35	0	0	0	0	0	0	2010	19
+Address:	+0	+1	+2	+3	+4	+5	+6	+7	+8	+9
+	2000 	-1	100	0	0	0	0	0	0	0	0
+Clock: 200 microseconds
+PSR: 2
+PSR: 2
+Possible interrupts: 
+0 - no interrupt
+1 - run program
+2 - shutdown system
+3 - input operation completion (io_getc)
+4 - output operation completion (io_putc)
+Enter interrupt...
