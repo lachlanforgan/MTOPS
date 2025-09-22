@@ -1,7 +1,7 @@
 // ************************************************************************************
 // Author: Lachlan Forgan
 // Student ID: 301080041
-// Assignment: Homework 1
+// Assignment: MTOPS Project
 // Date: 02/17/2025
 // Course: OS Internals
 // Functionality: The purpose of this program is to simulate a hypothetical decimal
